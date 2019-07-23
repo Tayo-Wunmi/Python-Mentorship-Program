@@ -8,6 +8,7 @@ if fav_num % 2 == 0:
 else:
     print('Your number favourite is an odd number')
 
-print("Thank you for playing the number identificator. Hope you had fun! "
-      "\n"
-      "Please give comment or feedback: ")
+print("Thank you for playing the number identificator. Hope you had fun!")
+
+comment = (input("Please give comment or feedback: "))
+print("Feedback received")
